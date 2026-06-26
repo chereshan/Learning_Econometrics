@@ -1,0 +1,30 @@
+Dataset: rdt_accuracy.txt			
+Variable	Type	Codes	Description
+id	numeric	number	Participant identifier
+age	numeric	number	Participant age (years)
+sex	categorical	"1 = male
+ 2 = female"	Participant sex
+testb4	categorical	"1 = yes
+ 2 = no Blank = not collected"	Ever tested for HIV before?
+resb4	categorical	"1 = positive
+2 = negative
+3 = not applicable (never tested before)
+4 = Not disclosed"	Previous HIV test result
+detn	categorical	"1 = positive
+0 = negative"	Optimally-stored Determine result
+deth	categorical	"1 = positive
+0 = negative"	Sub-optimally-stored Determine result
+unign	categorical	"1 = positive
+0 = negative"	Optimally-stored Uni-Gold result
+unigh	categorical	"1 = positive
+0 = negative"	Sub-optimally-stored Uni-Gold result
+oqn	categorical	"1 = positive
+0 = negative"	Optimally-stored OraQuick result
+oqh	categorical	"1 = positive
+0 = negative"	Sub-optimally-stored OraQuick result
+golds	categorical	"1 = positive
+0 = negative"	"Diagnostic reference standard result , given to participant as final result"
+changed	categorical	"1 = yes
+0 = no"	Indicator if optimally-stored OraQuick changed over 12 months of re-reading
+changedh	categorical	"1 = yes
+0 = no"	Indicator if sub-optimally-stored OraQuick changed over 12 months of re-reading
